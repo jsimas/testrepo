@@ -16,6 +16,9 @@ public class GreetingController {
 
     @RequestMapping("/greeting")
     public Greeting greeting(@RequestParam(value="name", defaultValue="World") String name) {
+        if (name.equals("World")) {
+            System.out.println("Default value is being used LET SEE"); //TODO changed to logger
+        }
         return new Greeting(counter.incrementAndGet(),
                             String.format(TEMPLATE, name));
     }
