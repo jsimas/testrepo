@@ -1,5 +1,8 @@
 package hello;
 
+/**
+ * Adding some comments
+ */
 public class Greeting {
 
     private final long id;
