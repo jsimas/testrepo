@@ -8,6 +8,6 @@ public class Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
-        System.out.print("Do a log in the end");
+        System.out.print("Do a log in the end"); //TODO changed to logger
     }
 }
