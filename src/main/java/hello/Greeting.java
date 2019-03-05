@@ -5,6 +5,7 @@ package hello;
  */
 public class Greeting {
 
+    //Commenting
     private final long id;
     private final String content;
 
@@ -20,6 +21,5 @@ public class Greeting {
     public String getContent() {
         return content;
     }
-
-    //Fixing a bug in develop
+    //Developing a new functionality for my 5, then another commit
 }
