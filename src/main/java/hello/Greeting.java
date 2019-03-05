@@ -21,5 +21,5 @@ public class Greeting {
         return content;
     }
 
-    //Developing a new functionality for my 5
+    //Developing a new functionality for my 5, then another commit
 }
