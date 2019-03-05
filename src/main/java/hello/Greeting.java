@@ -21,6 +21,5 @@ public class Greeting {
     public String getContent() {
         return content;
     }
-
     //Developing a new functionality for my 5, then another commit
 }
